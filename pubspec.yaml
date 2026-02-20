@@ -13,14 +13,13 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  audioplayers: ^5.0.0
+  google_fonts: ^6.0.0
+  flutter_tts: ^3.8.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  audioplayers: ^5.0.0
-  google_fonts: ^6.0.0
-  flutter_tts: ^3.8.0
   flutter_lints: ^6.0.0
 
 flutter:
@@ -28,3 +27,4 @@ flutter:
   assets:
     - assets/audios/
     - assets/images/
+    - assets/data/

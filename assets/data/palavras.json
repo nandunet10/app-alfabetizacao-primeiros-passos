@@ -1,0 +1,53 @@
+{
+  "monossilabas": [
+    {"palavra": "PÉ", "silabas": ["PÉ"], "imagem": "padrao.png"},
+    {"palavra": "MÃO", "silabas": ["MÃO"], "imagem": "padrao.png"},
+    {"palavra": "SOL", "silabas": ["SOL"], "imagem": "padrao.png"},
+    {"palavra": "MAR", "silabas": ["MAR"], "imagem": "padrao.png"},
+    {"palavra": "LÁ", "silabas": ["LÁ"], "imagem": "padrao.png"},
+    {"palavra": "FO", "silabas": ["FO"], "imagem": "padrao.png"},
+    {"palavra": "BEM", "silabas": ["BEM"], "imagem": "padrao.png"},
+    {"palavra": "DÓ", "silabas": ["DÓ"], "imagem": "padrao.png"},
+    {"palavra": "NÓ", "silabas": ["NÓ"], "imagem": "padrao.png"},
+    {"palavra": "RÉ", "silabas": ["RÉ"], "imagem": "padrao.png"}
+  ],
+
+  "dissilabas": [
+    {"palavra": "BOLA", "silabas": ["BO","LA"], "imagem": "padrao.png"},
+    {"palavra": "CAMA", "silabas": ["CA","MA"], "imagem": "padrao.png"},
+    {"palavra": "PATO", "silabas": ["PA","TO"], "imagem": "padrao.png"},
+    {"palavra": "FADA", "silabas": ["FA","DA"], "imagem": "padrao.png"},
+    {"palavra": "RATO", "silabas": ["RA","TO"], "imagem": "padrao.png"},
+    {"palavra": "LULA", "silabas": ["LU","LA"], "imagem": "padrao.png"},
+    {"palavra": "VACA", "silabas": ["VA","CA"], "imagem": "padrao.png"},
+    {"palavra": "JOGO", "silabas": ["JO","GO"], "imagem": "padrao.png"},
+    {"palavra": "COPO", "silabas": ["CO","PO"], "imagem": "padrao.png"},
+    {"palavra": "NOME", "silabas": ["NO","ME"], "imagem": "padrao.png"}
+  ],
+
+  "trissilabas": [
+    {"palavra": "CACHORRO", "silabas": ["CA","CHO","RRO"], "imagem": "padrao.png"},
+    {"palavra": "BORBOLETA", "silabas": ["BOR","BO","LE","TA"], "imagem": "padrao.png"},
+    {"palavra": "ABACAXI", "silabas": ["A","BA","CA","XI"], "imagem": "padrao.png"},
+    {"palavra": "PAPAGAIO", "silabas": ["PA","PA","GAIO"], "imagem": "padrao.png"},
+    {"palavra": "ELEFANTE", "silabas": ["E","LE","FAN","TE"], "imagem": "padrao.png"},
+    {"palavra": "COELHINHO", "silabas": ["CO","EL","HI","NHO"], "imagem": "padrao.png"},
+    {"palavra": "PASSARINHO", "silabas": ["PAS","SA","RI","NHO"], "imagem": "padrao.png"},
+    {"palavra": "MARACUJÁ", "silabas": ["MA","RA","CU","JÁ"], "imagem": "padrao.png"},
+    {"palavra": "CAMARÃO", "silabas": ["CA","MA","RÃO"], "imagem": "padrao.png"},
+    {"palavra": "ABRACADO", "silabas": ["A","BRA","CA","DO"], "imagem": "padrao.png"}
+  ],
+
+  "polissilabas": [
+    {"palavra": "INTERNACIONAL", "silabas": ["IN","TER","NA","CIO","NAL"], "imagem": "padrao.png"},
+    {"palavra": "PARALELEPIPEDO", "silabas": ["PA","RA","LE","LE","PI","PE","DO"], "imagem": "padrao.png"},
+    {"palavra": "ORGANIZACAO", "silabas": ["OR","GA","NI","ZA","CÃO"], "imagem": "padrao.png"},
+    {"palavra": "ELETRONICO", "silabas": ["E","LE","TRO","NI","CO"], "imagem": "padrao.png"},
+    {"palavra": "AUTOMOVEL", "silabas": ["AU","TO","MO","VEL"], "imagem": "padrao.png"},
+    {"palavra": "COMUNICACAO", "silabas": ["CO","MU","NI","CA","CÃO"], "imagem": "padrao.png"},
+    {"palavra": "EDUCACAO", "silabas": ["E","DU","CA","CÃO"], "imagem": "padrao.png"},
+    {"palavra": "HOSPITALAR", "silabas": ["HOS","PI","TA","LAR"], "imagem": "padrao.png"},
+    {"palavra": "INFORMATICA", "silabas": ["IN","FOR","MA","TI","CA"], "imagem": "padrao.png"},
+    {"palavra": "ADMINISTRACAO", "silabas": ["AD","MI","NIS","TRA","CÃO"], "imagem": "padrao.png"}
+  ]
+}
