@@ -1,134 +1,30 @@
 {
-    "letras": [
-        {
-            "letra": "A",
-            "imagem": "abelha.png",
-            "audio": "audios/letras/A.mp3"
-        },
-        {
-            "letra": "B",
-            "imagem": "bola.png",
-            "audio": "audios/letras/B.mp3"
-        },
-        {
-            "letra": "C",
-            "imagem": "cachorro.png",
-            "audio": "audios/letras/C.mp3"
-        },
-        {
-            "letra": "D",
-            "imagem": "dado.png",
-            "audio": "audios/letras/D.mp3"
-        },
-        {
-            "letra": "E",
-            "imagem": "elefante.png",
-            "audio": "audios/letras/E.mp3"
-        },
-        {
-            "letra": "F",
-            "imagem": "faca.png",
-            "audio": "audios/letras/F.mp3"
-        },
-        {
-            "letra": "G",
-            "imagem": "gato.png",
-            "audio": "audios/letras/G.mp3"
-        },
-        {
-            "letra": "H",
-            "imagem": "hipopotamo.png",
-            "audio": "audios/letras/H.mp3"
-        },
-        {
-            "letra": "I",
-            "imagem": "igreja.png",
-            "audio": "audios/letras/I.mp3"
-        },
-        {
-            "letra": "J",
-            "imagem": "jacare.png",
-            "audio": "audios/letras/J.mp3"
-        },
-        {
-            "letra": "K",
-            "imagem": "kiwi.png",
-            "audio": "audios/letras/K.mp3"
-        },
-        {
-            "letra": "L",
-            "imagem": "leao.png",
-            "audio": "audios/letras/L.mp3"
-        },
-        {
-            "letra": "M",
-            "imagem": "macaco.png",
-            "audio": "audios/letras/M.mp3"
-        },
-        {
-            "letra": "N",
-            "imagem": "navio.png",
-            "audio": "audios/letras/N.mp3"
-        },
-        {
-            "letra": "O",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/O.mp3"
-        },
-        {
-            "letra": "P",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/P.mp3"
-        },
-        {
-            "letra": "Q",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/Q.mp3"
-        },
-        {
-            "letra": "R",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/R.mp3"
-        },
-        {
-            "letra": "S",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/S.mp3"
-        },
-        {
-            "letra": "T",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/T.mp3"
-        },
-        {
-            "letra": "U",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/U.mp3"
-        },
-        {
-            "letra": "V",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/V.mp3"
-        },
-        {
-            "letra": "W",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/W.mp3"
-        },
-        {
-            "letra": "X",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/X.mp3"
-        },
-        {
-            "letra": "Y",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/Y.mp3"
-        },
-        {
-            "letra": "Z",
-            "imagem": "padrao.png",
-            "audio": "audios/letras/Z.mp3"
-        }
-    ]
+  "letras": [
+    { "letra": "A", "imagem": "abelha.png", "audio": "letras/A.mp3" },
+    { "letra": "B", "imagem": "bola.png", "audio": "letras/B.mp3" },
+    { "letra": "C", "imagem": "cachorro.png", "audio": "letras/C.mp3" },
+    { "letra": "D", "imagem": "dado.png", "audio": "letras/D.mp3" },
+    { "letra": "E", "imagem": "elefante.png", "audio": "letras/E.mp3" },
+    { "letra": "F", "imagem": "faca.png", "audio": "letras/F.mp3" },
+    { "letra": "G", "imagem": "gato.png", "audio": "letras/G.mp3" },
+    { "letra": "H", "imagem": "hipopotamo.png", "audio": "letras/H.mp3" },
+    { "letra": "I", "imagem": "igreja.png", "audio": "letras/I.mp3" },
+    { "letra": "J", "imagem": "jacare.png", "audio": "letras/J.mp3" },
+    { "letra": "K", "imagem": "kiwi.png", "audio": "letras/K.mp3" },
+    { "letra": "L", "imagem": "leao.png", "audio": "letras/L.mp3" },
+    { "letra": "M", "imagem": "macaco.png", "audio": "letras/M.mp3" },
+    { "letra": "N", "imagem": "navio.png", "audio": "letras/N.mp3" },
+    { "letra": "O", "imagem": "ovelha.png", "audio": "letras/O.mp3" },
+    { "letra": "P", "imagem": "pato.png", "audio": "letras/P.mp3" },
+    { "letra": "Q", "imagem": "queijo.png", "audio": "letras/Q.mp3" },
+    { "letra": "R", "imagem": "padrao.png", "audio": "letras/R.mp3" },
+    { "letra": "S", "imagem": "padrao.png", "audio": "letras/S.mp3" },
+    { "letra": "T", "imagem": "padrao.png", "audio": "letras/T.mp3" },
+    { "letra": "U", "imagem": "padrao.png", "audio": "letras/U.mp3" },
+    { "letra": "V", "imagem": "padrao.png", "audio": "letras/V.mp3" },
+    { "letra": "W", "imagem": "padrao.png", "audio": "letras/W.mp3" },
+    { "letra": "X", "imagem": "padrao.png", "audio": "letras/X.mp3" },
+    { "letra": "Y", "imagem": "padrao.png", "audio": "letras/Y.mp3" },
+    { "letra": "Z", "imagem": "padrao.png", "audio": "letras/Z.mp3" }
+  ]
 }

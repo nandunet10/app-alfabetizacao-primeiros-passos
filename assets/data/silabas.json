@@ -1,0 +1,50 @@
+{
+  "monossilabas": [
+    {"palavra": "PÉ", "silabas": ["PÉ"], "imagem": "padrao.png", "audio": "monossilabas/PE.mp3"},
+    {"palavra": "MÃO", "silabas": ["MÃO"], "imagem": "padrao.png", "audio": "monossilabas/MAO.mp3"},
+    {"palavra": "SOL", "silabas": ["SOL"], "imagem": "padrao.png", "audio": "monossilabas/SOL.mp3"},
+    {"palavra": "MAR", "silabas": ["MAR"], "imagem": "padrao.png", "audio": "monossilabas/MAR.mp3"},
+    {"palavra": "LÁ", "silabas": ["LÁ"], "imagem": "padrao.png", "audio": "monossilabas/LA.mp3"},
+    {"palavra": "FO", "silabas": ["FO"], "imagem": "padrao.png", "audio": "monossilabas/FO.mp3"},
+    {"palavra": "BEM", "silabas": ["BEM"], "imagem": "padrao.png", "audio": "monossilabas/BEM.mp3"},
+    {"palavra": "DÓ", "silabas": ["DÓ"], "imagem": "padrao.png", "audio": "monossilabas/DO.mp3"},
+    {"palavra": "NÓ", "silabas": ["NÓ"], "imagem": "padrao.png", "audio": "monossilabas/NO.mp3"},
+    {"palavra": "RÉ", "silabas": ["RÉ"], "imagem": "padrao.png", "audio": "monossilabas/RE.mp3"}
+  ],
+  "dissilabas": [
+    {"palavra": "BOLA", "silabas": ["BO","LA"], "imagem": "padrao.png", "audio": "dissilabas/BOLA.mp3"},
+    {"palavra": "CAMA", "silabas": ["CA","MA"], "imagem": "padrao.png", "audio": "dissilabas/CAMA.mp3"},
+    {"palavra": "PATO", "silabas": ["PA","TO"], "imagem": "padrao.png", "audio": "dissilabas/PATO.mp3"},
+    {"palavra": "FADA", "silabas": ["FA","DA"], "imagem": "padrao.png", "audio": "dissilabas/FADA.mp3"},
+    {"palavra": "RATO", "silabas": ["RA","TO"], "imagem": "padrao.png", "audio": "dissilabas/RATO.mp3"},
+    {"palavra": "LULA", "silabas": ["LU","LA"], "imagem": "padrao.png", "audio": "dissilabas/LULA.mp3"},
+    {"palavra": "VACA", "silabas": ["VA","CA"], "imagem": "padrao.png", "audio": "dissilabas/VACA.mp3"},
+    {"palavra": "JOGO", "silabas": ["JO","GO"], "imagem": "padrao.png", "audio": "dissilabas/JOGO.mp3"},
+    {"palavra": "COPO", "silabas": ["CO","PO"], "imagem": "padrao.png", "audio": "dissilabas/COPO.mp3"},
+    {"palavra": "NOME", "silabas": ["NO","ME"], "imagem": "padrao.png", "audio": "dissilabas/NOME.mp3"}
+  ],
+  "trissilabas": [
+    {"palavra": "CACHORRO", "silabas": ["CA","CHO","RRO"], "imagem": "padrao.png", "audio": "trissilabas/CACHORRO.mp3"},
+    {"palavra": "BORBOLETA", "silabas": ["BOR","BO","LE","TA"], "imagem": "padrao.png", "audio": "trissilabas/BORBOLETA.mp3"},
+    {"palavra": "ABACAXI", "silabas": ["A","BA","CA","XI"], "imagem": "padrao.png", "audio": "trissilabas/ABACAXI.mp3"},
+    {"palavra": "PAPAGAIO", "silabas": ["PA","PA","GAIO"], "imagem": "padrao.png", "audio": "trissilabas/PAPAGAIO.mp3"},
+    {"palavra": "ELEFANTE", "silabas": ["E","LE","FAN","TE"], "imagem": "padrao.png", "audio": "trissilabas/ELEFANTE.mp3"},
+    {"palavra": "COELHINHO", "silabas": ["CO","EL","HI","NHO"], "imagem": "padrao.png", "audio": "trissilabas/COELHINHO.mp3"},
+    {"palavra": "PASSARINHO", "silabas": ["PAS","SA","RI","NHO"], "imagem": "padrao.png", "audio": "trissilabas/PASSARINHO.mp3"},
+    {"palavra": "MARACUJÁ", "silabas": ["MA","RA","CU","JÁ"], "imagem": "padrao.png", "audio": "trissilabas/MARACUJA.mp3"},
+    {"palavra": "CAMARÃO", "silabas": ["CA","MA","RÃO"], "imagem": "padrao.png", "audio": "trissilabas/CAMARAO.mp3"},
+    {"palavra": "ABRACADO", "silabas": ["A","BRA","CA","DO"], "imagem": "padrao.png", "audio": "trissilabas/ABRACADO.mp3"}
+  ],
+  "polissilabas": [
+    {"palavra": "INTERNACIONAL", "silabas": ["IN","TER","NA","CIO","NAL"], "imagem": "padrao.png", "audio": "polissilabas/INTERNACIONAL.mp3"},
+    {"palavra": "PARALELEPIPEDO", "silabas": ["PA","RA","LE","LE","PI","PE","DO"], "imagem": "padrao.png", "audio": "polissilabas/PARALELEPIPEDO.mp3"},
+    {"palavra": "ORGANIZACAO", "silabas": ["OR","GA","NI","ZA","CÃO"], "imagem": "padrao.png", "audio": "polissilabas/ORGANIZACAO.mp3"},
+    {"palavra": "ELETRONICO", "silabas": ["E","LE","TRO","NI","CO"], "imagem": "padrao.png", "audio": "polissilabas/ELETRONICO.mp3"},
+    {"palavra": "AUTOMOVEL", "silabas": ["AU","TO","MO","VEL"], "imagem": "padrao.png", "audio": "polissilabas/AUTOMOVEL.mp3"},
+    {"palavra": "COMUNICACAO", "silabas": ["CO","MU","NI","CA","CÃO"], "imagem": "padrao.png", "audio": "polissilabas/COMUNICACAO.mp3"},
+    {"palavra": "EDUCACAO", "silabas": ["E","DU","CA","CÃO"], "imagem": "padrao.png", "audio": "polissilabas/EDUCACAO.mp3"},
+    {"palavra": "HOSPITALAR", "silabas": ["HOS","PI","TA","LAR"], "imagem": "padrao.png", "audio": "polissilabas/HOSPITALAR.mp3"},
+    {"palavra": "INFORMATICA", "silabas": ["IN","FOR","MA","TI","CA"], "imagem": "padrao.png", "audio": "polissilabas/INFORMATICA.mp3"},
+    {"palavra": "ADMINISTRACAO", "silabas": ["AD","MI","NIS","TRA","CÃO"], "imagem": "padrao.png", "audio": "polissilabas/ADMINISTRACAO.mp3"}
+  ]
+}

@@ -9,6 +9,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const sizeBox = SizedBox(height: 20);
+
     return Scaffold(
       backgroundColor: Colors.yellow[100],
       appBar: AppBar(
@@ -21,13 +23,13 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             _buildButton(context, "🔤 Letras", const LetrasScreen()),
-            const SizedBox(height: 20),
+            sizeBox,
 
-            _buildButton(context, "🧩 Sílabas", const SilabasScreen(tipo: '')),
-            const SizedBox(height: 20),
+            _buildButton(context, "🧩 Sílabas", const SilabasScreen()),
+            sizeBox,
 
             _buildButton(context, "📖 Palavras", const PalavrasScreen()),
-            const SizedBox(height: 20),
+            sizeBox,
 
             _buildButton(context, "🎮 Jogos", const JogosScreen()),
           ],

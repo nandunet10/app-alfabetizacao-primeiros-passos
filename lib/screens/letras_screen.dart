@@ -1,8 +1,9 @@
 import 'package:alfabetizacao_app/models/letra_model.dart';
 import 'package:alfabetizacao_app/services/letras_service.dart';
+import 'package:alfabetizacao_app/utils/audio_util.dart';
+import 'package:alfabetizacao_app/widgets/controle_inferiores.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
-import '../widgets/controle_inferiores.dart';
 
 class LetrasScreen extends StatefulWidget {
   const LetrasScreen({super.key});
@@ -25,6 +26,9 @@ class _LetrasScreenState extends State<LetrasScreen>
   @override
   void initState() {
     super.initState();
+    LetrasService.resetar();
+    atual = LetrasService.letraAtual();
+    ouvir();
 
     // animação da letra
     _letraController = AnimationController(
@@ -49,24 +53,31 @@ class _LetrasScreenState extends State<LetrasScreen>
   }
 
   Future<void> carregarLetra() async {
-    final letra = LetrasService.letraAleatoria();
+    final letra = LetrasService.letraAtual();
     setState(() => atual = letra);
 
     // tocar a letra automaticamente
     await ouvir();
   }
 
-  Future<void> ouvir() async {
+  Future ouvir() async {
     if (atual == null) return;
-    await player.play(AssetSource(atual!.audio));
-
-    _letraController.forward();
-    await Future.delayed(const Duration(milliseconds: 80));
-    _letraController.reverse();
+    await AudioUtil.tocarAudio(atual!.audio);
   }
 
-  void proximo() => carregarLetra();
-  void voltar() => carregarLetra(); // pode ser customizado se quiser histórico
+  void proximo() {
+    setState(() {
+      atual = LetrasService.proxima();
+    });
+    ouvir();
+  }
+
+  void voltar() {
+    setState(() {
+      atual = LetrasService.anterior();
+    });
+    ouvir();
+  }
 
   @override
   void dispose() {

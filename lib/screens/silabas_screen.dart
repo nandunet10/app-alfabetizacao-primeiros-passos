@@ -1,13 +1,13 @@
-import 'package:alfabetizacao_app/models/palavra_model.dart';
-import 'package:alfabetizacao_app/services/palavras_service.dart';
+import 'dart:math';
+import 'package:alfabetizacao_app/models/silaba_model.dart';
+import 'package:alfabetizacao_app/services/silaba_service.dart';
+import 'package:alfabetizacao_app/utils/audio_util.dart';
 import 'package:alfabetizacao_app/widgets/controle_inferiores.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 class SilabasScreen extends StatefulWidget {
-  final String tipo; // monossilabas, dissilabas, trissilabas, polissilabas
-
-  const SilabasScreen({super.key, required this.tipo});
+  const SilabasScreen({super.key});
 
   @override
   State<SilabasScreen> createState() => _SilabasScreenState();
@@ -16,7 +16,7 @@ class SilabasScreen extends StatefulWidget {
 class _SilabasScreenState extends State<SilabasScreen>
     with TickerProviderStateMixin {
   final AudioPlayer player = AudioPlayer();
-  PalavraModel? atual;
+  SilabaModel? atual;
 
   List<String> selecionadas = [];
   String classificacao = '';
@@ -25,6 +25,7 @@ class _SilabasScreenState extends State<SilabasScreen>
 
   late AnimationController _animController;
   late Animation<double> _animScale;
+  final Random _random = Random();
 
   @override
   void initState() {
@@ -41,8 +42,10 @@ class _SilabasScreenState extends State<SilabasScreen>
   }
 
   Future<void> carregarPalavra() async {
-    // pega palavra aleatória e atualiza estado
-    final palavra = PalavrasService.palavraAleatoria(widget.tipo);
+    const tipos = ['monossilabas', 'dissilabas', 'trissilabas', 'polissilabas'];
+    final tipoAleatorio = tipos[_random.nextInt(tipos.length)];
+    final palavra = SilabasService.palavraAleatoria(tipoAleatorio);
+
     setState(() {
       atual = palavra;
       selecionadas.clear();
@@ -62,14 +65,13 @@ class _SilabasScreenState extends State<SilabasScreen>
     if (selecionadas.length == atual!.silabas.length) {
       if (selecionadas.join() == atual!.silabas.join()) {
         _animController.forward();
-        await Future.delayed(const Duration(milliseconds: 300));
+        await Future.delayed(const Duration(milliseconds: 100));
         _animController.reverse();
 
-        await player.play(
-          AssetSource('audios/$pastaAudio/${atual!.palavra}.mp3'),
-        );
+        // Toca o áudio
+        await ouvir();
       }
-      await Future.delayed(const Duration(milliseconds: 800));
+      await Future.delayed(const Duration(milliseconds: 300));
       setState(() => selecionadas.clear());
     }
   }
@@ -95,9 +97,10 @@ class _SilabasScreenState extends State<SilabasScreen>
   }
 
   void proximo() => carregarPalavra();
-  void ouvir() async {
+
+  Future ouvir() async {
     if (atual == null) return;
-    await player.play(AssetSource('audios/$pastaAudio/${atual!.palavra}.mp3'));
+    await AudioUtil.tocarAudio(atual!.audio);
   }
 
   @override
@@ -124,7 +127,7 @@ class _SilabasScreenState extends State<SilabasScreen>
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         border: Border.all(
-                          color: Colors.blueAccent.withValues(alpha: 0.38),
+                          color: Colors.blueAccent.withAlpha(38),
                           width: 3,
                         ),
                         image: DecorationImage(

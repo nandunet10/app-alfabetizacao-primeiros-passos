@@ -1,25 +1,20 @@
 name: alfabetizacao_app
-description: "A new Flutter project."
+description: "Projeto de alfabetizacao infantil"
 
 publish_to: "none"
-
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.11.0
+  sdk: ">=3.11.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.8
   audioplayers: ^5.0.0
-  google_fonts: ^6.0.0
   flutter_tts: ^3.8.0
+  google_fonts: ^6.0.0
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   flutter_lints: ^6.0.0
 
 flutter:
